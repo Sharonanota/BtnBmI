@@ -18,14 +18,6 @@ import android.widget.Button
             startActivity(intent)
         }
 
-//        lateinit var btnBmI:Button
-//        setContentView(R.layout.activity_main)
-//        tvBmI = findViewById(R.id.tvBmI)
-//        tvBmI.setOnClickListener {
-//            val intent = Intent(
-//                this, BmICalculateActivity::class.java
-//            )
-//            startActivity(intent)
-//        }
+
     }
 }

@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.1815" />
         <entry key="app/src/main/res/layout/activity_bm_icalculate.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/activity_send_money.xml" value="0.14194100042753313" />
+        <entry key="app/src/main/res/layout/activity_send_money2.xml" value="0.14194100042753313" />
       </map>
     </option>
   </component>
