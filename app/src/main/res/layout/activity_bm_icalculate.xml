@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BmICalculateActivity">
+    tools:context=".BmICalculate">
 
     <ImageView
         android:id="@+id/imageView"
@@ -66,11 +66,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
 
-    <TextView
-        android:id="@+id/tvBmI"
-        android:layout_width="103dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="76dp"
+    <Button
+        android:id="@+id/btnsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="405dp"
+        android:text="send money"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalculate" />

@@ -8,16 +8,17 @@ import android.widget.Button
 
  class MainActivity : AppCompatActivity() {
     lateinit var btnBmI:Button
-    @SuppressLint("CutPasteId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnBmI = findViewById(R.id.btnBmI)
         btnBmI.setOnClickListener {
-            val intent = Intent(this, BmICalculateActivity::class.java)
+            val intent = Intent(this, ActivityCalculate::class.java)
             startActivity(intent)
         }
 
+        }
 
-    }
+
+
 }
